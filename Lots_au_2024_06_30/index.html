@@ -10,6 +10,41 @@
         <link rel="stylesheet" href="css/qgis2web.css"><link rel="stylesheet" href="css/fontawesome-all.min.css">
         <link rel="stylesheet" href="css/leaflet-search.css">
         <style>
+
+.nav {
+  background-color: DodgerBlue; 
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+}
+a.one:link, a.one:visited {
+  background-color: DodgerBlue;
+  color: white;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.one:hover, a.one:active {
+  background-color: white;
+  color: black;
+}
+h2 {
+  font-family: Verdana;
+    text-align: center;
+}
+h3 {
+  font-family: Verdana;
+  text-align: center;
+}
+
         html, body, #map {
             width: 100%;
             height: 100%;
@@ -20,6 +55,19 @@
         <title></title>
     </head>
     <body>
+
+
+<h2>IVRY CONFLUENCES</h2>
+<h3>Synthese des Lots</h3>
+<ul class="nav">
+  <li><a class="one" href="https://faussier.github.io/Ivry-Confluence/Lots_au_2023_05_31" target="_self">31-05-2023</a></li>
+  <li><a class="one" href="https://faussier.github.io/Ivry-Confluence/Lots_au_2023_12_31" target="_self">31-12-2023</a></li>
+  <li><a class="one" href="https://faussier.github.io/Ivry-Confluence/Lots_au_2024_06_30" target="_self">30-06-2024</a></li>
+  <li><a class="one" href="https://faussier.github.io/Ivry-Confluence/Lots_au_2024_12_31" target="_self">31-12-2024</a></li>
+  <li><a class="one" href="https://faussier.github.io/Ivry-Confluence/Lots_au_2025_06_30" target="_self">30-06-2025</a></li>
+</ul>
+
+
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
